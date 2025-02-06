@@ -24,7 +24,7 @@ query <- GDCquery(
 brca_res = getResults(query)
 summary(factor(brca_res$sample_type))
 
-#filter sample_type with less number
+#filter sample_type with low numbers
 query <- GDCquery(
   project = "TCGA-BRCA",
   data.category = "DNA Methylation",
