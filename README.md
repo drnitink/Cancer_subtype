@@ -2,9 +2,10 @@
 Confusion Matrix and Statistics for train set
 
                      Reference
-Prediction            Primary Tumor Solid Tissue Normal
-  Primary Tumor                 220                   0
-  Solid Tissue Normal             0                  19
+|Prediction            |Primary Tumor| Solid Tissue Normal|
+|----------------------|-------------|--------------------|
+  |Primary Tumor                 |220                   |0|
+  |Solid Tissue Normal             |0                  |19|
                                        
                Accuracy : 1            
                  95% CI : (0.9847, 1)  
